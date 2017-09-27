@@ -11,8 +11,8 @@ window.onload = function(){
     ah = [ 0, 0 ];
     am = [ 0, 0 ];
 
-    ah=iniFinHours(12, 30, 13, 40);
-    am=iniFinMin(12, 30, 13, 40);
+    ah=iniFinHours(12, 30, 12, 40);
+    am=iniFinMin(12, 5, 12, 45);
     
     $("#center").attr("d", describeArc(100, 100, 1, 0, 359));
     $("#hour").attr("d", describeArc(100, 100, 100, ah[0], ah[1]));
