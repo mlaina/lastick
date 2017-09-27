@@ -19,18 +19,25 @@
 	<!--<path id="arc1" fill="none" stroke="#446688" stroke-width="20" />-->
 
 	<defs>
-		<path id="sec" d="M 0 -140 A 140 140 0 0 1 0 140 " stroke-dasharray="880"  fill="none"/>
-			
-		
-
+		<path id="center"  stroke-dasharray="817" fill="none">	
+		<path id="min"  stroke-dasharray="880"  fill="none"/>
+		<path id="hour"  stroke-dasharray="817" fill="none">	
 		
 	</defs>
 	
 	<g stroke-width="15">
 		<g stroke="hsla(0, 95%, 25%, 1)" >
-			<use xlink:href="#sec"/>
+			<use xlink:href="#min"/>
 			</g>
-	
+		
+		<g stroke="hsla(188, 15%, 35%, 1)" >
+			<use xlink:href="#hour"/>
+			</g>
+		<g stroke="hsla(0, 95%, 25%, 1)" >
+			<use xlink:href="#center"/>
+			</g>
+
+
 	
 	
 	</g>
