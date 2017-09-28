@@ -1,0 +1,23 @@
+{
+  "name": "lastick",
+  "version": "1.0.0",
+  "description": "First version of task manager lastick",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlaina/lastick.git"
+  },
+  "author": "OnTheHunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlaina/lastick/issues"
+  },
+  "homepage": "https://github.com/mlaina/lastick#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.0"
+  }
+}
