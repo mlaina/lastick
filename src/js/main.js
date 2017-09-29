@@ -1,12 +1,75 @@
+var center=100;
+
+function addTask(){
+
+
+    $("#center").attr("d", describeArc(100, 100, 1, 0, 359));
+    var timeI=$("input[name=time_ini_task]").val();
+    timeI=[Number(timeI[0]+timeI[1]), Number(timeI[3]+timeI[4])];
+
+    var timeF=$("input[name=time_fin_task]").val();
+    timeF=[Number(timeF[0]+timeF[1]), Number(timeF[3]+timeF[4])];
+    
+    console.log(makePath('min', timeI, timeF));
+    var taskMin= $("<path stroke-dasharray='880' id='min' fill='none' d="+makePath('min', timeI, timeF)+"/>");
+    var taskHour= $("<path stroke-dasharray='817' id='hour' fill='none' d="+makePath('hour', timeI, timeF)+"/>");
+  
+    console.log(taskMin);
+
+    $("min").append(taskMin);
+    $("hour").append(taskHour);
+/*    if(!check())
+        error();
+
+    storeTask();
+    */
+}
+
+
+function makePath(type, timeIni, timeFin){
+    var radius;
+    var a = [ 0, 0 ];
+    
+    if(type=="min"){
+        radius=230;
+        a=iniFinHours(timeIni[0], timeIni[1], timeFin[0], timeFin[1]);
+    }
+    
+    if(type=="hour"){
+        radius=140;
+        a=iniFinMin(timeIni[0], timeIni[1], timeFin[0], timeFin[1]);
+    }
+
+    return describeArc(center, center, radius, a[0], a[1]);
+}
+
+
+
+function error(){
+    
+}
+
+
+// To BBDD /////////////////////////////////////////////////////////////////
+
+
+function storeTask(){
+
+}
+
+function check(){
+
+
+}
+
+
 window.onload = function(){
-    /*
-    var now = new Date();
+    
+   /* var now = new Date();
     var h = now.getHours(), m = now.getMinutes(), s = now.getSeconds();
     var curr = h * 60 * 60 + m * 60 + s;
     svg.setCurrentTime(curr);
     */
-
-    var a;
 
     ah = [ 0, 0 ];
     am = [ 0, 0 ];
@@ -14,13 +77,25 @@ window.onload = function(){
     ah=iniFinHours(12, 30, 12, 40);
     am=iniFinMin(12, 5, 12, 45);
     
-    $("#center").attr("d", describeArc(100, 100, 1, 0, 359));
-    $("#hour").attr("d", describeArc(100, 100, 140, ah[0], ah[1]));
-    $("#min").attr("d", describeArc(100, 100, 230, am[0], am[1]));
+    //$("#center").attr("d", describeArc(100, 100, 1, 0, 359));
+      var s= describeArc(100, 100, 140, ah[0], ah[1]);
+    s="'"+s+"'";
+    $("hour").append("<path stroke-dasharray='817' id='hour' fill='none' d="+s+"/>");
+    
+
+    var svg=$("svg");
+    $("svg").remove();
+    console.log(svg);
+
+    $("#clock").append(svg);
+    /*
+     */
+     //$("#min").attr("d", describeArc(100, 100, 230, am[0], am[1]));
 
 
  
 };
+
 
 function getIntRGBvalues(hex){
     // get red/green/blue int values of hex

@@ -18,6 +18,10 @@
 </head>
 
 <body>
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+			<path/>
+		</svg>
+
 	<div class="container">
 		
 		<div class='row' id='logo'>
@@ -29,23 +33,30 @@
 		<div class='col-md-3'>
 
 		<h1>Add Task</h1>
+			<form id="add_task">
+				<div class="row">
+					<input type = "color" name = "color1" id = "color1"/>
+					<button type = "button" id = "triangulate" onclick = "triangulate()">Triangulate</button>
+				<!--	<p id = "1">Colour 1</p>
+					<p id = "2">Colour 2</p>
+					<p id = "3">Colour 3</p> -->
+				</div>
 
-			<div class="row">
-				<input type = "color" name = "color1" id = "color1"/>
-				<button type = "button" id = "triangulate" onclick = "triangulate()">Triangulate</button>
-				<p id = "1">Colour 1</p>
-				<p id = "2">Colour 2</p>
-				<p id = "3">Colour 3</p>
-			</div>
+				<div class="row">
+					
+					<input type="text" name="acronym_task" placeholder="Acronym">
 
-			<div class="row">
-				<input type="text" name="acronym_task" placeholder="Acronym">
+					<input type="text" name="name_task" placeholder="Name">
 
-				<input type="text" name="name_task" placeholder="Name">
+					<input type="time" name="time_ini_task">
 
-				<input type="date" name="date_task" placeholder="Date">
+					<input type="time" name="time_fin_task">
+					
+					<input type="button" name="add_task" value="Add"  onclick="addTask()" value="Submit">
 
-			</div>
+				</div>
+
+			</form>
 		</div>
 		
 		<div id="clock" class='col-md-6'>
@@ -54,14 +65,13 @@
 				<!--<path id="arc1" fill="none" stroke="#446688" stroke-width="20" />-->
 
 				<defs>
-					<path id="center"  stroke-dasharray="817" fill="none"/>	
+
 					
 					<min>
-						<path id="min"  stroke-dasharray="880"  fill="none"/>
+					
 					</min>
 
 					<hour>
-						<path id="hour"  stroke-dasharray="817" fill="none"/>	
 					</hour>
 				
 				</defs>
