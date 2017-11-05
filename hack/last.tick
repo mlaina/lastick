@@ -1,0 +1,17 @@
+
+vista
+	clock
+	 persona
+	 hora
+	 	13h --> tareas
+
+controlador
+	tarea
+	persona
+
+bbdd
+	tarea
+	 tareapersona
+	persona
+	 personapersona
+

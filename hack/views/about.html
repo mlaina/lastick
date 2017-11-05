@@ -1,0 +1,89 @@
+<% include header.html %>
+	
+	<div class="container">
+		
+	<div class='row'>
+		<div class='col-md-3'>
+
+		<h1>Add Task</h1>
+				<div class="row">
+					<!--<p id = "1">Colour 1</p>
+					<p id = "2">Colour 2</p>
+					<p id = "3">Colour 3</p> -->
+			
+				</div>
+
+				<div class="row">
+					
+					<!--<input type="text" name="acronym_task" placeholder="Acronym">
+
+	
+					-->
+				
+					<fieldset class="boxBody">
+					<input type = "color" class="color" name = "color_task" id = "color1"/>
+					<button type = "button" id = "triangulate" onclick = "triangulate()">Triangulate</button>
+					<input type="text" class="text" name="name_task" placeholder="Name">
+					<input type="text" class="text" name="acr_task" placeholder="ACR">
+					<input type="text" class="text" name="desc_task" placeholder="Description">
+					<input type="text" class="text" name="tags_task" placeholder="Tags">
+					<input type="text" class="text" name="comments_task" placeholder="Comments">
+					<input type="time"  name="time_ini_task" placeholder="00:00">
+
+					<input type="time" name="time_fin_task" placeholder="00:00">
+					
+					<input type="button" onclick="addTask()" >
+				
+				</div>
+		</div>
+		
+		<div id="clock" class='col-md-6'>
+			<svg  width="100%" height="100%" viewBox="-300 -150 800 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+				
+				<!--struct
+				-->
+				<circle class="radius" cx="100" cy="100" r="125" stroke="none" stroke-width="1" fill="none"/> 
+				<circle class="radius" cx="100" cy="100" r="185" stroke="none" stroke-width="1" fill="none"/> 	
+
+				<text  class="guie" x="90" y="-160" fill="none" font-size="20" >00</text>
+				<text  class="guie" x="90" y="380" fill="none" font-size="20" >30</text>				
+				<text  class="guie" x="-190" y="110" fill="none" font-size="20" >45</text>
+				<text  class="guie" x="360" y="110" fill="none" font-size="20" >15</text>
+
+				<text  class="guie" x="90" y="0" fill="none" font-size="20" >12</text>
+				<text  class="guie" x="95" y="215" fill="none" font-size="20" >6</text>				
+				<text  class="guie" x="-15" y="110" fill="none" font-size="20" >9</text>
+				<text  class="guie" x="200" y="110" fill="none" font-size="20" >3</text>
+				
+
+
+
+
+
+				<text onmouseover="view()" onmouseout="noview()" id="time" x="27" y="120" fill="white" font-size="55" >00-00</text>
+
+				<circle cx="100" cy="100" r="250" stroke="white" stroke-width="1" fill="none"/> 
+				
+
+			
+		
+			</svg>
+		
+		</div>
+		<div class='col-md-3'>
+			<h1> Management </h1>
+
+
+		</div>
+		
+
+
+	</div>
+</div>
+	
+
+</body>
+
+</html>
+
+

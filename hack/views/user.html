@@ -1,0 +1,36 @@
+<% include header.html %>
+<div class="box profile">
+		<fieldset class="">
+			<div  class="row">
+				<div class="span12" id = "datos">
+					<label><strong>User Name:</strong> <%= user.user.username %></label>
+					<label><strong>Name:</strong> <%= user.user.name %></label> 
+					<label><strong>Email:</strong> <%= user.user.email %></label> 
+					<label><strong>Location:</strong> <%= user.user.address %></label> 
+				</div>
+				<% tasks.forEach(function(task){
+					%>
+					<label><strong>Task name:</strong> <%= task.task.name %></label> 
+					<% });%>
+						
+				<img src="/image.png"   name="userimage" id="userimage"  />
+				<br>
+				<br>
+				<div class="span4">
+					<label><a href="/edit"><strong>Update Profile</strong></a></label>
+				</div>
+			</div>
+
+			<form action="/addTask" method="post" class="box login">
+				<fieldset class="boxBody">
+				<label>Name</label>
+				  <input type="text" tabindex="1" placeholder="Task name" name="name_task" required>
+				<footer>
+				  <input type="submit" class="btnLogin" value="addTask" tabindex="1">
+				</footer>
+
+			</form>
+		</fieldset>
+	</div>
+</body>
+</html>
