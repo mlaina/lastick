@@ -1,0 +1,30 @@
+{
+  "name": "lastick",
+  "version": "1.0.0",
+  "description": "application of time management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlaina/lastick.git"
+  },
+  "keywords": [
+    "lastick",
+    "clock",
+    "task",
+    "tick"
+  ],
+  "author": "Marcos Laina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlaina/lastick/issues"
+  },
+  "homepage": "https://github.com/mlaina/lastick#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
+  }
+}
