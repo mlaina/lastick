@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="65cm" height="27cm" viewBox="-15 -52 1281 537" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="376.416" y="-50.6928" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="376.416" y="-50.6928" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="419.916" y="-30.6928">USERS</text>
+    <rect style="fill: #ffffff" x="376.416" y="-22.6928" width="87" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="376.416" y="-22.6928" width="87" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="379.416" y="-9.4928">+id_user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="379.416" y="6.5072">+email</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="379.416" y="22.5072">+name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="379.416" y="38.5072">+password</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="379.416" y="54.5072">+timestamp</text>
+    <rect style="fill: #ffffff" x="376.416" y="61.3072" width="87" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="376.416" y="61.3072" width="87" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="922.536" y="0.17049" width="102.4" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="922.536" y="0.17049" width="102.4" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="973.736" y="20.1705">TASKS</text>
+    <rect style="fill: #ffffff" x="922.536" y="28.1705" width="102.4" height="116"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="922.536" y="28.1705" width="102.4" height="116"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="41.3705">+id_task</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="57.3705">+name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="73.3705">+acronym</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="89.3705">+reiterative</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="105.37">+id_color</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="121.37">+week</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="925.536" y="137.37">+timestamp</text>
+    <rect style="fill: #ffffff" x="922.536" y="144.17" width="102.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="922.536" y="144.17" width="102.4" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="588.202" y="-15.951" width="125.95" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="588.202" y="-15.951" width="125.95" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="651.177" y="4.049">USERS_TASKS</text>
+    <rect style="fill: #ffffff" x="588.202" y="12.049" width="125.95" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="588.202" y="12.049" width="125.95" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="591.202" y="25.249">+id_user_task</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="591.202" y="41.249">+id_user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="591.202" y="57.249">+id_task</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="591.202" y="73.249">+timestamp</text>
+    <rect style="fill: #ffffff" x="588.202" y="80.049" width="125.95" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="588.202" y="80.049" width="125.95" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="481.652,-12.6928 533.809,-12.6928 533.809,38.049 588.202,38.049 "/>
+    <polygon style="fill: #ffffff" points="481.652,-20.6928 465.652,-12.6928 481.652,-4.6928 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="481.652,-20.6928 465.652,-12.6928 481.652,-4.6928 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.3,38.1705 810.344,38.1705 810.344,54.049 714.152,54.049 "/>
+    <polygon style="fill: #ffffff" points="904.3,46.1705 920.3,38.1705 904.3,30.1705 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.3,46.1705 920.3,38.1705 904.3,30.1705 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1141.4" y="43.7582" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1141.4" y="43.7582" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1184.9" y="63.7582">TIMES</text>
+    <rect style="fill: #ffffff" x="1141.4" y="71.7582" width="87" height="100"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1141.4" y="71.7582" width="87" height="100"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1144.4" y="84.9582">+id_time</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1144.4" y="100.958">+ini</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1144.4" y="116.958">+fin</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1144.4" y="132.958">+valid</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1144.4" y="148.958">+id_task</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1144.4" y="164.958">+timestamp</text>
+    <rect style="fill: #ffffff" x="1141.4" y="171.758" width="87" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1141.4" y="171.758" width="87" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1043.17,38.1705 1091.17,38.1705 1091.17,145.758 1141.4,145.758 "/>
+    <polygon style="fill: #ffffff" points="1043.17,30.1705 1027.17,38.1705 1043.17,46.1705 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1043.17,30.1705 1027.17,38.1705 1043.17,46.1705 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="711.394" y="275.724" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="711.394" y="275.724" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="754.894" y="295.724">LABELS</text>
+    <rect style="fill: #ffffff" x="711.394" y="303.724" width="87" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="711.394" y="303.724" width="87" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="714.394" y="316.924">+id_label</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="714.394" y="332.924">+name</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="714.394" y="348.924">+id_alert</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="714.394" y="364.924">+timestamp</text>
+    <rect style="fill: #ffffff" x="711.394" y="371.724" width="87" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="711.394" y="371.724" width="87" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="729.006" y="96.4822" width="117.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="729.006" y="96.4822" width="117.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="787.906" y="116.482">TASKS_LABELS</text>
+    <rect style="fill: #ffffff" x="729.006" y="124.482" width="117.8" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="729.006" y="124.482" width="117.8" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="732.006" y="137.682">+id_task_label</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="732.006" y="153.682">+id_label</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="732.006" y="169.682">+id_task</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="732.006" y="185.682">+timestamp</text>
+    <rect style="fill: #ffffff" x="729.006" y="192.482" width="117.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="729.006" y="192.482" width="117.8" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="816.63,313.724 835.394,313.724 835.394,232.103 708.006,232.103 708.006,150.482 729.006,150.482 "/>
+    <polygon style="fill: #ffffff" points="816.63,305.724 800.63,313.724 816.63,321.724 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="816.63,305.724 800.63,313.724 816.63,321.724 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.3,38.1705 876.671,38.1705 876.671,166.482 846.806,166.482 "/>
+    <polygon style="fill: #ffffff" points="904.3,46.1705 920.3,38.1705 904.3,30.1705 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="904.3,46.1705 920.3,38.1705 904.3,30.1705 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1098.41" y="262.832" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1098.41" y="262.832" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1141.91" y="282.832">ALERTS</text>
+    <rect style="fill: #ffffff" x="1098.41" y="290.832" width="87" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1098.41" y="290.832" width="87" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1101.41" y="304.032">+id_alert</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1101.41" y="320.032">+early</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1101.41" y="336.032">+id_time</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1101.41" y="352.032">+timestamp</text>
+    <rect style="fill: #ffffff" x="1098.41" y="358.832" width="87" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1098.41" y="358.832" width="87" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1246.64,81.7582 1265.4,81.7582 1265.4,207.295 1077.41,207.295 1077.41,332.832 1098.41,332.832 "/>
+    <polygon style="fill: #ffffff" points="1246.64,73.7582 1230.64,81.7582 1246.64,89.7582 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1246.64,73.7582 1230.64,81.7582 1246.64,89.7582 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="952" y="396" width="87" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="952" y="396" width="87" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="995.5" y="416">COLORS</text>
+    <rect style="fill: #ffffff" x="952" y="424" width="87" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="952" y="424" width="87" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="955" y="437.2">+id_color</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="955" y="453.2">+code</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="955" y="469.2">+timestamp</text>
+    <rect style="fill: #ffffff" x="952" y="476" width="87" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="952" y="476" width="87" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.764,434 901.536,434 901.536,102.17 922.536,102.17 "/>
+    <polygon style="fill: #ffffff" points="933.764,442 949.764,434 933.764,426 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.764,442 949.764,434 933.764,426 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="387.9" y="172" width="118.85" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="387.9" y="172" width="118.85" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="447.325" y="192">USERS_LABELS</text>
+    <rect style="fill: #ffffff" x="387.9" y="200" width="118.85" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="387.9" y="200" width="118.85" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="390.9" y="213.2">+id_user_label</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="390.9" y="229.2">+id_label</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="390.9" y="245.2">+id_user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="390.9" y="261.2">+id_color</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="390.9" y="277.2">+timestamp</text>
+    <rect style="fill: #ffffff" x="387.9" y="284" width="118.85" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="387.9" y="284" width="118.85" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.18,-12.6928 339.416,-12.6928 339.416,242 387.9,242 "/>
+    <polygon style="fill: #ffffff" points="358.18,-4.6928 374.18,-12.6928 358.18,-20.6928 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.18,-4.6928 374.18,-12.6928 358.18,-20.6928 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="693.158,313.724 601.072,313.724 601.072,226 506.75,226 "/>
+    <polygon style="fill: #ffffff" points="693.158,321.724 709.158,313.724 693.158,305.724 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="693.158,321.724 709.158,313.724 693.158,305.724 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.764,434 567,434 567,258 506.75,258 "/>
+    <polygon style="fill: #ffffff" points="933.764,442 949.764,434 933.764,426 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="933.764,442 949.764,434 933.764,426 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1080.17,300.832 940.4,300.832 940.4,345.724 798.394,345.724 "/>
+    <polygon style="fill: #ffffff" points="1080.17,308.832 1096.17,300.832 1080.17,292.832 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1080.17,308.832 1096.17,300.832 1080.17,292.832 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="57" y="51" width="127.3" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="57" y="51" width="127.3" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="120.65" y="71">USERS_USERS</text>
+    <rect style="fill: #ffffff" x="57" y="79" width="127.3" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="57" y="79" width="127.3" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="60" y="92.2">+id_users_users</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="60" y="108.2">+id_user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="60" y="124.2">+id_user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="60" y="140.2">+timestamp</text>
+    <rect style="fill: #ffffff" x="57" y="147" width="127.3" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="57" y="147" width="127.3" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.18,-12.6928 272.358,-12.6928 272.358,105 184.3,105 "/>
+    <polygon style="fill: #ffffff" points="358.18,-4.6928 374.18,-12.6928 358.18,-20.6928 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.18,-4.6928 374.18,-12.6928 358.18,-20.6928 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="355.764,-10 36,-10 36,121 57,121 "/>
+    <polygon style="fill: #ffffff" points="355.764,-2 371.764,-10 355.764,-18 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="355.764,-2 371.764,-10 355.764,-18 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="39" y="174" width="126.8" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="39" y="174" width="126.8" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="102.4" y="194">USERS_ROLES</text>
+    <rect style="fill: #ffffff" x="39" y="202" width="126.8" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="39" y="202" width="126.8" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="42" y="215.2">+id_user</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="42" y="231.2">+id_rol</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="42" y="247.2">+timestamp</text>
+    <rect style="fill: #ffffff" x="39" y="254" width="126.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="39" y="254" width="126.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="215" y="239" width="94.7" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="215" y="239" width="94.7" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="262.35" y="259">ROLES</text>
+    <rect style="fill: #ffffff" x="215" y="267" width="94.7" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="215" y="267" width="94.7" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="218" y="280.2">+id_rol</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="218" y="296.2">+permission</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="218" y="312.2">+timestamp</text>
+    <rect style="fill: #ffffff" x="215" y="319" width="94.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="215" y="319" width="94.7" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.18,-12.6928 -13,-12.6928 -13,212 39,212 "/>
+    <polygon style="fill: #ffffff" points="358.18,-4.6928 374.18,-12.6928 358.18,-20.6928 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="358.18,-4.6928 374.18,-12.6928 358.18,-20.6928 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="196.764,277 18,277 18,228 39,228 "/>
+    <polygon style="fill: #ffffff" points="196.764,285 212.764,277 196.764,269 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="196.764,285 212.764,277 196.764,269 "/>
+  </g>
+</svg>
