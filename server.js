@@ -30,7 +30,10 @@ var con = mysql.createConnection({
 
 con.connect(function(err) {
   if (err) throw err;
-  console.log("Connected!");
+  con.query("SELECT * FROM USERS", function (err, result, fields) {
+    if (err) throw err;
+    console.log("Connected!");
+  });
 });
 
 
@@ -45,17 +48,14 @@ app.use(methodOverride());
 
     // api ---------------------------------------------------------------------
     // get all todos
-    app.get('/api/todos', function(req, res) {
+    app.get('/', function(req, res) {
+      var m;
 
-      // use mongoose to get all todos in the database
-      Todo.find(function(err, todos) {
-
-          // if there is an error retrieving, send the error. nothing after res.send(err) will execute
-          if (err)
-              res.send(err)
-
-          res.json(todos); // return all todos in JSON format
+      con.query("SELECT * FROM customers", function (err, result, fields) {
+        if (err) throw err;
+        m=result[0].name;
       });
+      res.send(m);
   });
 
   // create todo and send back all todos after creation

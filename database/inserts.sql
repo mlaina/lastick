@@ -1,0 +1,1 @@
+INSERT INTO USERS (NAME, email, TIMESTAMP) VALUES ('marcos', 'laina855@gmail.com', CURRENT_TIMESTAMP);
